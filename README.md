@@ -1,42 +1,65 @@
 # strtools
 
+## Install
+
+### Local install
+
+```bash
+
+npm install strtools
+
+```
+
+### Global install
+
+```bash
+
+npm install -g strtools
+
+```
+
 ## Base64 encode/decode
 
-### Base64 encode
+### Base64 tools usage
 
 ```bash
-$ strtools base64enc <string>
+
+strtools base64enc <string>
+strtools base64dec <string>
+
 ```
 
-### Base64 decode
-
-```base
-$ strtools base64dec <string>
-```
 ## URL encode/decode
 
-### url encode
+### URL tools usage
 
 ```bash
-$ strtools urlenc <string>
-```
 
-### url decode
+strtools urlenc <string>
+strtools urldec <string>
 
-```base
-$ strtools urldec <string>
 ```
 
 ## Generate uuid1 and uuid4
 
-### Generate uuid1
+### Generate tools usage
 
 ```bash
-$ strtools generate uuid1
+
+strtools generate uuid1
+strtools generate uuid4
+
 ```
 
-### Generate uuid4
+## Bcrypt
 
-```base
-$ strtools generate uuid4
+### Bcrypt tools usage
+
+```bash
+
+strtools bcrypt-encode <raw-password> [salt-rounds]
+strtools bcrypt-hash <raw-password> <salt>
+strtools bcrypt-salt <salt-rounds>
+strtools bcrypt-match <raw-password> <hash>
+
 ```

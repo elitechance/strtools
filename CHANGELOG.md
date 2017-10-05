@@ -1,5 +1,11 @@
 # Changelog
 
+1.0.4
+
+* Move @types/uuid to devDependencies
+* Add installation in readme
+* Add bcrypt
+
 1.0.3
 
 * Add *.md in dist directory
