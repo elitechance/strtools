@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.2
+
+## 2.0.1
+
+- fix(readme): Add commands and style
+
 ## 2.0.0
 
 - feature(core): STDIN support
