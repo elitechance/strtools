@@ -36,12 +36,14 @@ Commands:
   help [command]              display help for command
 ```
 
-## [base64](docs/base64.md)
+## Commands:
 
-## [bcrypt](docs/bcrypt.md)
+### [base64](docs/base64.md)
 
-## [url](docs/url.md)
+### [bcrypt](docs/bcrypt.md)
 
-## [uuid](docs/uuid.md)
+### [url](docs/url.md)
 
-## [jp](docs/jp.md)
+### [uuid](docs/uuid.md)
+
+### [jp](docs/jp.md)
