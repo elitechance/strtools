@@ -18,48 +18,30 @@ npm install -g strtools
 
 ```
 
-## Base64 encode/decode
-
-### Base64 tools usage
+## Usage
 
 ```bash
+Usage: strtools [options] [command]
 
-strtools base64enc <string>
-strtools base64dec <string>
+Options:
+  -V, --version               output the version number
+  -h, --help                  display help for command
 
+Commands:
+  base64 [options] <command>
+  url [options] <command>
+  uuid [options]
+  bcrypt [options] <command>
+  jp [options] <path>
+  help [command]              display help for command
 ```
 
-## URL encode/decode
+## [base64](docs/base64.md)
 
-### URL tools usage
+## [bcrypt](docs/bcrypt.md)
 
-```bash
+## [url](docs/url.md)
 
-strtools urlenc <string>
-strtools urldec <string>
+## [uuid](docs/uuid.md)
 
-```
-
-## Generate uuid1 and uuid4
-
-### Generate tools usage
-
-```bash
-
-strtools generate uuid1
-strtools generate uuid4
-
-```
-
-## Bcrypt
-
-### Bcrypt tools usage
-
-```bash
-
-strtools bcrypt-encode <raw-password> [salt-rounds]
-strtools bcrypt-hash <raw-password> <salt>
-strtools bcrypt-salt <salt-rounds>
-strtools bcrypt-match <raw-password> <hash>
-
-```
+## [jp](docs/jp.md)
