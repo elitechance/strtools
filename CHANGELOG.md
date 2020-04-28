@@ -1,6 +1,12 @@
 # Changelog
 
+## 2.0.3
+
+- Add str command alias
+
 ## 2.0.2
+
+- Sync version number
 
 ## 2.0.1
 
