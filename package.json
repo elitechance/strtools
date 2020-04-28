@@ -1,6 +1,6 @@
 {
   "name": "strtools",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Generic string tools",
   "main": "index.js",
   "bin": {
@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/elitechance/strtools#readme",
   "dependencies": {
-    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
     "commander": "^5.0.0",
     "js-base64": "^2.5.2",
     "js-yaml": "^3.13.1",

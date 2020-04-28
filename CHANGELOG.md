@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.4
+
+- fix(bcrypt): Replace `bcrypt` with `bcryptjs` for portability
+
 ## 2.0.3
 
 - Add str command alias
