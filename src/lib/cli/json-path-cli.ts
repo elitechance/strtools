@@ -65,7 +65,7 @@ export class JsonPathCli extends CliBase {
     const message = `
 Examples:
   $ ${this.toolName} ${this.commandName} $[0] -j '${sampleString}'
-  $ ${this.toolName} ${this.commandName} $[0] -j '${sampleString} --color false'
+  $ ${this.toolName} ${this.commandName} $[0] -j '${sampleString}' --color false
   $ echo -n '${sampleString}' | ${this.toolName} ${this.commandName} $[2]
   $ ${this.toolName} ${this.commandName} $.one -j '${object}'
   $ echo -n '${object}' | ${this.toolName} ${this.commandName} -s $.array 

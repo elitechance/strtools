@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.6
+
+- fix(doc): Improve json path document
+
 ## 2.0.5
 
 - Support deeper objects for json path
