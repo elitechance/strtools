@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.5
+
+- Support deeper objects for json path
+- Support json path color disable
+- Support json path compact enable
+
 ## 2.0.4
 
 - fix(bcrypt): Replace `bcrypt` with `bcryptjs` for portability
