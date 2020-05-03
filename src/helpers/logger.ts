@@ -1,4 +1,5 @@
 import * as yaml from 'js-yaml';
+import * as util from 'util';
 
 export class Logger {
   static info(...args: any[]) {
@@ -15,6 +16,20 @@ export class Logger {
   static console(...args: any[]) {
     // tslint:disable-next-line:no-console
     console.log.apply(console.log, args);
+  }
+
+  static deep(value: any, options?) {
+    const defaults = {
+      depth: null,
+      colors: true,
+      compact: false,
+    };
+
+    if (options) {
+      console.log(util.inspect(value, { ...defaults, ...options }));
+    } else {
+      console.log(util.inspect(value, defaults));
+    }
   }
 
   static yaml(json: any[]) {
