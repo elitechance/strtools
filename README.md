@@ -33,6 +33,7 @@ Commands:
   uuid [options]
   bcrypt [options] <command>
   jp [options] <path>
+  jwt [options] <command>
   help [command]              display help for command
 ```
 
@@ -47,3 +48,5 @@ Commands:
 ### [uuid](docs/uuid.md)
 
 ### [jp](docs/jp.md)
+
+### [jwt](docs/jwt.md)

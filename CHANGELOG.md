@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.0
+
+- Feature(jwt): Support for JWT
+
 ## 2.0.6
 
 - fix(doc): Improve json path document

@@ -7,6 +7,7 @@ import { UuidCli } from '../lib/cli/uuid-cli';
 import { Logger } from '../helpers/logger';
 import { BcryptCli } from '../lib/cli/bcrypt-cli';
 import { JsonPathCli } from '../lib/cli/json-path-cli';
+import { JwtCli } from '../lib/cli/jwt-cli';
 
 class StringTools extends CliBase {
   constructor() {
@@ -16,6 +17,7 @@ class StringTools extends CliBase {
     new UuidCli();
     new BcryptCli();
     new JsonPathCli();
+    new JwtCli();
     this.initCommander();
   }
 

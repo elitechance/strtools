@@ -28,7 +28,7 @@ export class JsonPathCli extends CliBase {
       if (options.stringify) {
         Logger.console(JSON.stringify(value[0]));
       } else {
-        Logger.deep(value[0], this.getOptions());
+        Logger.deep(value[0], this.getPrintOptions());
       }
     } catch (error) {
       if (error.message) {
@@ -37,25 +37,6 @@ export class JsonPathCli extends CliBase {
         Logger.error(error);
       }
       process.exit(1);
-    }
-  }
-
-  private getOptions() {
-    let options: any = {};
-    if (this.options.color) {
-      if (this.options.color === 'false') options.colors = false;
-      if (this.options.color === 'true') options.colors = true;
-      if (this.options.color === '1') options.colors = true;
-      if (this.options.color === '0') options.colors = false;
-    }
-    if (this.options.compact) {
-      if (this.options.compact === 'false') options.compact = false;
-      if (this.options.compact === 'true') options.compact = true;
-      if (this.options.compact === '1') options.compact = true;
-      if (this.options.compact === '0') options.compact = false;
-    }
-    if (Object.keys(options).length) {
-      return options;
     }
   }
 
