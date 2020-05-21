@@ -1,4 +1,4 @@
-# uuid
+# jwt
 
 ```bash
 Usage: str jwt [options] <command>
