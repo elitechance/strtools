@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.1
+
+- Fix(jwt): Typo on jwt.md
+
 ## 2.1.0
 
 - Feature(jwt): Support for JWT
