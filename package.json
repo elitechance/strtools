@@ -1,6 +1,6 @@
 {
   "name": "strtools",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Generic string tools",
   "main": "index.js",
   "bin": {
