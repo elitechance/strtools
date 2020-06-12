@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.2
+
+- Fix(logger): Remove array lenght limit for Logger.deep()
+
 ## 2.1.1
 
 - Fix(jwt): Typo on jwt.md
