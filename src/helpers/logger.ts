@@ -23,6 +23,7 @@ export class Logger {
       depth: null,
       colors: true,
       compact: false,
+      maxArrayLength: null,
     };
 
     if (options) {
